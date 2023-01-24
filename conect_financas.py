@@ -85,67 +85,67 @@ def machine():
     point1 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[2]/div/div/div/select/option[3]')
     point1.click()
 
-    d1 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[8]/div[1]/div/div/input')
+    d1 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[9]/div[1]/div/div/input')
     d1.send_keys(nif_d)
 
     #d2 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[8]/div[2]/div/div/input')
     #d2.send_keys(nome_d)
 
-    d3 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[9]/div[1]/div/div/input')
+    d3 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[10]/div[1]/div/div/textarea')
     d3.send_keys(cede_d)
 
-    d4 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[9]/div[2]/div/div/input')
+    d4 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[10]/div[2]/div/div/input')
     d4.send_keys(cp_d)
 
-    d5 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[10]/div/div/div/input')
+    d5 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[11]/div/div/div/input')
     d5.send_keys(local_d)
 
 
-    lc1 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[12]/div[1]/div/div/input')
+    lc1 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[13]/div[1]/div/div/textarea')
     lc1.send_keys(morad_lc)
 
-    lc2 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[12]/div[2]/div/div/input')
+    lc2 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[13]/div[2]/div/div/input')
     lc2.send_keys(cp_lc)
 
-    lc3 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[13]/div/div/div/input')
+    lc3 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[14]/div/div/div/input')
     lc3.send_keys(local_lc)
 
-    lc4 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[14]/div[1]/div/div/div/input')
+    lc4 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[15]/div[1]/div/div/div/input')
     lc4.send_keys(data_lc)
 
-    lc_hora = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[14]/div[2]/div/div/input')
+    lc_hora = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[15]/div[2]/div/div/input')
     lc_hora.send_keys(h_list[idx])
     idx += 1
 
     #print(idx)
     #print(h_list[1])
 
-    ld1 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[16]/div[1]/div/div/input')
+    ld1 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[17]/div[1]/div/div/textarea')
     ld1.send_keys(morad_ld)
 
-    ld2 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[16]/div[2]/div/div/input')
+    ld2 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[17]/div[2]/div/div/input')
     ld2.send_keys(cp_ld)
 
-    ld3 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[17]/div/div/div/input')
+    ld3 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[18]/div/div/div/input')
     ld3.send_keys(local_ld)
 
 
-    ben1 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[21]/div/div/table/tbody/tr/td[1]/div/div/input')
+    ben1 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[22]/div/div/table/tbody/tr/td[1]/div/div/input')
     ben1.send_keys(desig_b)
 
-    ben2 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[21]/div/div/table/tbody/tr/td[2]/div/div/input')
+    ben2 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[22]/div/div/table/tbody/tr/td[2]/div/div/input')
     ben2.send_keys(qtd_b)
 
-    ben3 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[21]/div/div/table/tbody/tr/td[3]/div/div/input')
+    ben3 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[22]/div/div/table/tbody/tr/td[3]/div/div/input')
     ben3.send_keys(und_d)
 
-    submit = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[23]/div/div/button')
+    submit = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[24]/div/div/button')
     submit.click()
 
     time.sleep(3)
     
     #################Numero pa  lista do excell
-    num = driver.find_element(By.XPATH, '/html/body/div/div[2]/div[7]/div[1]/div[2]/div[3]/span')
+    num = driver.find_element(By.XPATH, '/html/body/div/div[2]/div[7]/div[1]/div[2]/div[2]/span')
     xlnum = num.text
 
     cod_list.append(xlnum)
@@ -173,15 +173,15 @@ def machine():
         point1 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[2]/div/div/div/select/option[3]')
         point1.click()
 
-        lc_hora = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[14]/div[2]/div/div/input')
+        lc_hora = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[15]/div[2]/div/div/input')
         lc_hora.clear()
         lc_hora.send_keys(h_list[idx])
         idx += 1
 
-        submit = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[23]/div/div/button')
+        submit = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[24]/div/div/button')
         submit.click()
         time.sleep(3)
-        num = driver.find_element(By.XPATH, '/html/body/div/div[2]/div[7]/div[1]/div[2]/div[3]/span')
+        num = driver.find_element(By.XPATH, '/html/body/div/div[2]/div[7]/div[1]/div[2]/div[2]/span')
         xlnum = num.text
         cod_list.append(xlnum)
 

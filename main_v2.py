@@ -19,7 +19,7 @@ def main_win():
     pasw = StringVar()
 
     frame.geometry('700x600')
-    frame.title('Creador de Guias de Transporte - Faça aqui a sua guia!')
+    frame.title('Criador de Guias de Transporte - Faça aqui a sua guia!')
     top_label = tk.Label(text='Login E-Fatura', height=5, font=(50))
     lable = tk.Label(text='NIF', height=5, font=(30))
     entry1 = tk.Entry(width=25, textvariable=nif)
