@@ -77,12 +77,12 @@ def machine():
     btn1 = driver.find_element(By.XPATH, '/html/body/div/div[2]/div[5]/div[3]/ul/li[1]/div/div/p[2]/a')
     btn1.click()
 
-    tab1 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[1]/div/div/select/option[2]')
+    tab1 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[2]/div/div/select/option[2]')
     tab1.click()
 
     time.sleep(2)
 
-    point1 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[2]/div/div/div/select/option[3]')
+    point1 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[3]/div/div/div/select/option[3]')
     point1.click()
 
     d1 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[9]/div[1]/div/div/input')
@@ -163,14 +163,15 @@ def machine():
     while ctrl < int(n_guias)-1:
         driver.back()
         time.sleep(3)
-        re_tab1 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[1]/div/div/select/option[3]')
+
+        re_tab1 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[2]/div/div/select/option[3]')
         re_tab1.click()
         time.sleep(2)
-        rere_tab1 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[1]/div/div/select/option[2]')
+        rere_tab1 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[2]/div/div/select/option[2]')
         rere_tab1.click()
         time.sleep(2)
 
-        point1 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[2]/div/div/div/select/option[3]')
+        point1 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[3]/div/div/div/select/option[3]')
         point1.click()
 
         lc_hora = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[7]/form/div[15]/div[2]/div/div/input')
