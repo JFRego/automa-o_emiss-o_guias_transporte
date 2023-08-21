@@ -1,5 +1,9 @@
 from selenium import webdriver
 import chromedriver_autoinstaller
+
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
+
 from selenium.webdriver.common.by import By
 from selenium.webdriver import ChromeOptions
 import time
@@ -57,8 +61,8 @@ def machine():
     options.add_experimental_option("prefs", chrome_prefs)
     options.add_experimental_option("detach", True)
 
-    chromedriver_autoinstaller.install()
-    driver = webdriver.Chrome(options=options)
+    #chromedriver_autoinstaller.install()
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     driver.get('https://www.acesso.gov.pt/jsp/loginRedirectForm.jsp?path=DocTransporte%2FpainelRemetente.action&partID=SGDT')
 
 
